@@ -1,9 +1,24 @@
 import Image from "next/image";
+import Card from "./components/card";
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <Card
+      title="Contestant Name"
+      content = {`Votes:`}
+      outfit="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25260156/2023/9/29/3d04b8b4-1104-4801-bed4-17ebf98223301695968509595KALINIWomenPinkEthnicMotifsYokeDesignRegularGottaPattiKurtaw1.jpg"
+      extra1="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/30055405/2024/6/28/e3c7ee91-0764-414f-b1cc-3937b3eccd411719534643392HARTIGANFlatformSandalswithLaserCuts4.jpg"
+      extra2="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/26793426/2024/1/5/77e84e09-4510-405c-a8f2-7ed88b66e4841704457663612KushalsFashionJewelleryRedClassicDropEarrings2.jpg"
+      extra3="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/25532136/2023/10/18/df8177dc-0c1f-4809-9901-601408d5c1781697625017114Bangle2.jpg"
+
+      />
+    </main>
+  );
+}
+
+{/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.js</code>
@@ -107,7 +122,4 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
-    </main>
-  );
-}
+      </div> */}
