@@ -21,7 +21,7 @@ function Card({ title, content, outfit, extra1, extra2, extra3 }) {
               <img className=" max-w-full rounded-lg" src={extra1} alt="" />
             </div>
           </div>
-          <div class="grid gap-2">
+          <div className="grid gap-2">
             <div>
               <img className=" max-w-full rounded-lg" src={extra2} alt="" />
             </div>
@@ -36,7 +36,7 @@ function Card({ title, content, outfit, extra1, extra2, extra3 }) {
         <h2 className='text-base sm:text-sm'>{title}</h2>
         <p className='text-sm sm:text-xs'>{content + count}</p>
       </div>
-      <button className="bg-rose-300 p-1 rounded text-sm sm:text-xs hover:bg-rose-400 justify-center" onClick={handleIncrement} > Like!</button >
+      <button className="bg-rose-400 px-3 py-2 rounded text-md sm:text-sm hover:bg-rose-300 justify-center" onClick={handleIncrement} > Like!</button >
 
     </div >
   );
